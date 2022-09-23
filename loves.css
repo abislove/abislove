@@ -3,8 +3,9 @@
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 20px;
   background-color: #3c056c;
-  border-radius: 5%;
+  border-radius: 50%;
   overflow-wrap: normal;
+  width: 10%;
 }
 
 .card {
