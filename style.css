@@ -1,12 +1,22 @@
 form {
-    text-decoration-color: #b080d2;
+    align-items: center;
 }
 
 input {
-    width: 80%;
+    width: 50%;
 }
 
-input {
+textarea {
     width: 80%;
+    resize: vertical;
+    max-height: 300px;
 }
 
+button {
+    width: 20%;
+}
+
+input, textarea {
+    box-shadow: 0 0 4px rgb(143, 7, 7);;
+    background-color: #1b0033;
+}
