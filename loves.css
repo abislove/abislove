@@ -1,10 +1,10 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 20px;
   background-color: #3c056c;
-  text-decoration-color: antiquewhite;
   border-radius: 5%;
+  overflow-wrap: normal;
 }
 
 .card {
@@ -12,3 +12,12 @@
   grid-template-rows: max-content 200px 1fr;
 }
 
+header {
+  text-decoration-color: antiquewhite;
+  text-decoration-style: solid;
+}
+
+div {
+  text-decoration-color: rgb(172, 213, 249);
+  overflow-wrap: normal;
+}
