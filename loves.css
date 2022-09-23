@@ -1,7 +1,15 @@
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Submitted by <var>submitter</var></h5>
-      <p class="card-text"><var>love</var></p>
-      <a href="#" class="btn btn-primary">Submit your own</a>
-    </div>
-  </div>
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card {
+  background-color: #3c056c;
+  text-decoration-color: antiquewhite;
+}
