@@ -21,3 +21,16 @@ input, textarea {
     box-shadow: 0 0 4px rgb(143, 7, 7);;
     background-color: #1b0033;
 }
+
+::placeholder {
+    color: rgb(68, 6, 104);
+    opacity: 0.3;
+}
+
+:-ms-input-placeholder {
+    color: rgb(68, 6, 104);
+}
+
+::-ms-input-placeholder {
+    color: rgb(68, 6, 104);
+}
