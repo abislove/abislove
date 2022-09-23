@@ -13,7 +13,8 @@ textarea {
 }
 
 button {
-    width: 20%;
+    width: 30px;
+    height: 15px;
 }
 
 input, textarea {
